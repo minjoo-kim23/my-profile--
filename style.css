@@ -1,0 +1,100 @@
+/* Colors and fonts */
+body {	
+	background-color: rgb(255,237,252);
+	color: rbga(50, 50, 50);
+	font-family: 'Times', serif;
+	font-size: 20px;
+	font-weight: lighter;
+}
+ h2, h3, h4 {
+	font-family: 'Times' , sans-serif;
+	font-size: 25px;
+	font-weight: lighter;
+	font-weight: 600;
+	color: rosybrown;
+}
+h1 {
+	font-family: 'Lora' , sans-serif;
+	font-size:30px;
+	font-weight: 30px;
+	letter-spacing: px;
+	color: saddlebrown;
+}
+h5 {
+	font-family: 'Times' , sans-serif;
+	font-size:20px;
+	font-weight: 30px;
+	letter-spacing: px;
+	color: #AB509C;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: lighter;
+	font-size: 14px;
+	transition: color 0.2s ease;
+
+}
+
+/* Custom design with class * (99% of your design) */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container { 
+	width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color:white;
+	padding: 35px;
+	box-shadow: 0px 8px 25 px rbga(0,0,0,0.1);
+	border-radius: 3px;
+	margin: 15px 0px;
+	text-align: center;
+
+.img-circle {
+	border-radius: 50%;
+}
+}
+
+.btn-blue {
+	background-color: black;
+	color: white;
+	padding: 20px 25px;
+	border-radius: 5px;
+}
+
+.btn-blue:hover {
+	background-color: grey;
+	color: white;
+} 
+
+,list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 40px;
+	color: #AB509C;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 35px;
+}
